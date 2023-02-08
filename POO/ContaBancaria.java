@@ -13,14 +13,9 @@ public class ContaBancaria {
 		this.saldoConta = saldoConta;
 	}
 	
-	public ContaBancaria() {
-	}
-	
-
 	public int getIdConta() {
 		return idConta;
 	}
-
 
 	public String getName() {
 		return name;
