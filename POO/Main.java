@@ -34,29 +34,20 @@ public class Main {
 		
 		System.out.println();
 		System.out.println("Account data:");
-		System.out.printf("Account: %d, Holder: %s, Balance: $ %.2f%n", 
-				contaBancaria.getIdConta(), 
-				contaBancaria.getName(),
-				contaBancaria.getSaldoConta());
+		System.out.println(contaBancaria);
 		
 		
 		System.out.print("Enter a deposit value: ");
 		double value = sc.nextDouble();
 		contaBancaria.deposito(value);
 		System.out.println("Updated account data:");
-		System.out.printf("Account %d, Holder: %s, Balance: $ %.2f%n", 
-				contaBancaria.getIdConta(), 
-				contaBancaria.getName(),
-				contaBancaria.getSaldoConta());
+		System.out.println(contaBancaria);
 		
 		System.out.print("Enter a withdraw value: ");
 		value = sc.nextDouble();
 		contaBancaria.saque(value);
 		System.out.println("Updated account data:");
-		System.out.printf("Account %d, Holder: %s, Balance: $ %.2f%n", 
-				contaBancaria.getIdConta(), 
-				contaBancaria.getName(),
-				contaBancaria.getSaldoConta());
+		System.out.println(contaBancaria);
 		
 		sc.close();
 	}

@@ -37,4 +37,13 @@ public class ContaBancaria {
 		saldoConta -= value + 5;
 	}
 	
+	public String toString(){
+		return "Account: " 
+		+ idConta 
+		+ ", Holder: " 
+		+ name
+		+ ", Balance: $"
+		+ String.format("%.2f", saldoConta);
+	}
+	
 }
