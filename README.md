@@ -1,3 +1,3 @@
 # PoppoJanga-Trabalhos
-Aprendendo java gui gui
-Poopo
+Aprendendo java para aprimorar meus conhecimentos 
+
