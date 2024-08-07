@@ -1,9 +1,9 @@
-package Encapsulation.StockPOO2.application;
+package Encapsulation.StockPOOEnc.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import Encapsulation.StockPOO2.entities.Product;
+import Encapsulation.StockPOOEnc.entities.Product;
 
 public class Program {
     public static void main(String[] args) {

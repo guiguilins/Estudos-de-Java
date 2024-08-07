@@ -1,4 +1,4 @@
-package Encapsulation.StockPOO2.entities;
+package Encapsulation.StockPOOEnc.entities;
 
 public class Product {
     private String name;
