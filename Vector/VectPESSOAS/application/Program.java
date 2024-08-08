@@ -32,13 +32,13 @@ public class Program {
         }
 
         int sumIdade = 0;
-        ;
+        
         for (int i = 0; i < vect.length; i++) {
             if (vect[i].getAge() < 16)
                 sumIdade++;
         }
 
-        double percentage = ((double)sumIdade / n) * 100.0;
+        double percentage = ((double) sumIdade / n) * 100.0;
 
 
         double avg = sum / vect.length;
